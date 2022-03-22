@@ -31,7 +31,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/Portfolio" exact component={Home} />
           <Route path="/project" component={Projects} />
           <Route path="/Resume" component={Resume} />
           <Route path="/about" component={About} />
